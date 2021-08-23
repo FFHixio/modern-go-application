@@ -33,7 +33,7 @@ RUN set -xe && \
 
 
 # Final image
-FROM alpine:3.11
+FROM alpine:latest
 
 RUN apk add --update --no-cache ca-certificates tzdata bash curl
 
